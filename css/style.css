@@ -1,3 +1,15 @@
+body:not(.loaded) .layer-1 {
+  display: none;
+}
+
+body:not(.loaded) #gallery {
+  display: none;
+}
+
+body:not(.loaded) footer {
+  display: none;
+}
+
 body {
   background-color: rgb(240,240,240);
   margin: 0;
@@ -150,7 +162,6 @@ img {
 }
 
 .click-to-open {
-  /*outline: #ccc solid thin;*/
   box-shadow: 5px 5px 5px #ddd;
 }
 
@@ -301,7 +312,7 @@ PARRALLAX SECTION
   overflow: hidden;
   width: 100%;
   height: 750px;
-  background-color: white;
+  background-color: rgb(240,240,240);
 }
 
 .parallax-layer {
@@ -317,9 +328,9 @@ PARRALLAX SECTION
 .layer-1 {
   z-index: 1;
   background: #415a6c; /* For browsers that do not support gradients */
-  background: -webkit-linear-gradient(red, yellow); /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(red, yellow); /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(red, yellow); /* For Firefox 3.6 to 15 */
+  background: -webkit-linear-gradient(#80c9be, #f86969); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#80c9be, #f86969); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#80c9be, #f86969); /* For Firefox 3.6 to 15 */
   background: linear-gradient(#80c9be, #f86969); /* Standard syntax */
 }
 
