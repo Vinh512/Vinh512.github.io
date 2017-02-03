@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Vinh Huynh | Portfolio</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,700,800" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+  </head>
+
+  <body>
+    <!-- FIXED HEADER/NAVBAR -->
+    <header>
+      <h1 class="text-blue"><a href="index.html">Vinh Huynh</a></h1>
+      <hr/>
+      <nav>
+        <ul>
+          <li><a href="#Link-Projects" class="selected">Portfolio</a></li>
+          <li><a href="resume.html">Resume</a></li>
+          <li><a href="about.html">About</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- PARRALLAX IMAGES SECTION -->
+    <div class="parallax-container">
+      <div class="parallax-layer layer-1" data-parallax-speed="-0.2" data-max-scroll="765"></div>
+      <div class="parallax-layer layer-2" data-parallax-speed="-1.8" data-max-scroll="765"></div>
+      <div class="parallax-layer layer-3" data-parallax-speed="2" data-max-scroll="765"></div>
+      <div class="parallax-layer layer-4" data-parallax-speed="-0.2" data-max-scroll="765"></div>
+      <div class="parallax-layer layer-5" data-parallax-speed="4" data-max-scroll="765"></div>
+      <div class="parallax-layer layer-6" data-parallax-speed="0.5" data-max-scroll="765"></div>
+      <div class="parallax-layer layer-7" data-parallax-speed="2" data-max-scroll="765"></div>
+    </div>
+
+    <!-- ANCHOR TO PROJECTS -->
+    <div id="Link-Projects" class="jump-projects"></div>
+
+    <!-- PORTFOLIO SECTION -->
+    <h2 class="topic text-blue">Projects</h2>
+    <hr/>
+    <div id="wrapper">
+      <ul id="gallery">
+        <li><img class="click-to-open" data-modal="PPS" src="images/PencilPaperScissors.jpg" alt="portfolio piece 1"></li>
+        <li><img class="click-to-open" data-modal="PeerPulse" src="images/PeerPulse.jpg" alt="portfolio piece 1"></li>
+        <li><img class="click-to-open" data-modal="Reddit" src="images/Ajaxify_Reddit.jpg" alt="portfolio piece 1"></li>
+        <li><img class="click-to-open" data-modal="TicTacToe" src="images/TicTacToe.jpg" alt="portfolio piece 1"></li>
+      </ul>
+    </div>
+
+    <!-- SKILLS SECTION -->
+    <section id="skills">
+      <h2 class="topic-skills">Skills</h2>
+      <hr/>
+      <ul>
+        <li>Javascript<span class="v-line">|</span>HTML<span class="v-line">|</span>CSS<span class="v-line">|</span>jQuery<span class="v-line">|</span>Bootstrap</li>
+        <li>React<span class="v-line">|</span>MongoDB<span class="v-line">|</span>Node.js<span class="v-line">|</span>Express</li>
+        <li>Responsive Design<span class="v-line">|</span>Git<span class="v-line">|</span>Photoshop<span class="v-line">|</span>3D Studio Max</li>
+      </ul>
+    </section>
+
+    <!-- FOOTER SECTION -->
+    <footer class="gradient">
+      <a target="_blank" href="https://www.linkedin.com/in/vinh-huynh"><img class="footer-icons" src="images/Icon_Linkedin.png" alt="Linkedin Icon"></a>
+      <a target="_blank" href="https://github.com/Vinh512"><img class="footer-icons" src="images/Icon_GitHub.png" alt="GitHub Icon"></a>
+      <a href="mailto:vinh.webdev@gmail.com"><img class="footer-icons" src="images/Icon_Email.png" alt="Email Icon"></a>
+    </footer>
+
+    <!-- MODAL 1 -->
+    <div id="PPS" class="modal">
+      <div class="modal-content">
+        <div class="modal-header">
+          <span class="close">&times;</span>
+          <h2>Pencil, Paper, Scissors</h2>
+        </div>
+        <div class="modal-body">
+          <img src="images/PencilPaperScissors.jpg" class="modal-pic" alt="Penci,Paper,Scissors Screen Shot">
+          <p>A platform for teachers to request classroom supplies from generous donors. A group project working with UI/UX designers.</p>
+          <p> - HTML, CSS, Javascript, Node, Mongoose, Express</p>
+        </div>
+        <div class="modal-footer">
+          <div class="btn-right">
+            <input type="button" onclick="window.open('https://limitless-reaches-19249.herokuapp.com/');" class="modal-btn" value="Demo">
+            <input type="button" onclick="window.open('https://github.com/kcricht06/School-Supplies');" class="modal-btn" value="Code">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- MODAL 2 -->
+    <div id="PeerPulse" class="modal">
+      <div class="modal-content">
+        <div class="modal-header">
+          <span class="close">&times;</span>
+          <h2>Peer Pulse</h2>
+        </div>
+        <div class="modal-body">
+          <img src="images/PeerPulse.jpg" class="modal-pic" alt="PeerPulse Screen Shot">
+          <p>An app that facilitates decision-making allowing users to submit and vote for activities. A group project exercising usage of React.</p>
+          <p> - CSS, Javascript, JSX, React, Firebase</p>
+        </div>
+        <div class="modal-footer">
+          <div class="btn-right">
+            <input type="button" onclick="window.open('https://peerpulse.firebaseapp.com/#/');" class="modal-btn" value="Demo">
+            <input type="button" onclick="window.open('https://github.com/vinh512/Peer_Pulse_ReactJS');" class="modal-btn" value="Code">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- MODAL 3 -->
+    <div id="Reddit" class="modal">
+      <div class="modal-content">
+        <div class="modal-header">
+          <span class="close">&times;</span>
+          <h2>Ajaxify Reddit</h2>
+        </div>
+        <div class="modal-body">
+          <img src="images/Ajaxify_Reddit.jpg" class="modal-pic" alt="Reddit Screen Shot">
+          <p>A simplfied Reddit recreated as a single page application using AJAX requests to their API to populate the page.</p>
+          <p> - HTML, CSS, Javascript, jQuery, AJAX</p>
+        </div>
+        <div class="modal-footer">
+          <div class="btn-right">
+            <input type="button" onclick="window.open('https://ajaxify-reddit.herokuapp.com/index.html');" class="modal-btn" value="Demo">
+            <input type="button" onclick="window.open('https://github.com/vinh512/Ajax-Reddit/blob/master/js/app.js');" class="modal-btn" value="Code">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- MODAL 4 -->
+    <div id="TicTacToe" class="modal">
+      <div class="modal-content">
+        <div class="modal-header">
+          <span class="close">&times;</span>
+          <h2>Tic Tac Toe</h2>
+        </div>
+        <div class="modal-body">
+          <img src="images/TicTacToe.jpg" class="modal-pic" alt="TicTacToe Screen Shot">
+          <p>The classic 2-player game demonstrates effective usage of DOM manipulation and logic patterns to loop through and check for winning combinations.</p>
+          <p> - HTML, CSS, Javascript, jQuery</p>
+        </div>
+        <div class="modal-footer">
+          <div class="btn-right">
+            <input type="button" onclick="window.open('https://tictactoevh.herokuapp.com/index.html');" class="modal-btn" value="Demo">
+            <input type="button" onclick="window.open('https://github.com/vinh512/tic-tac-toe/blob/master/js/script.js');" class="modal-btn" value="Code">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- JAVASCRIPT SCRIPTS -->
+    <script src="js/parallax.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

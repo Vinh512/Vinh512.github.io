@@ -1,0 +1,50 @@
+@media screen and (min-width: 480px) {
+
+  #primary {
+    width: 50%;
+    float: left;
+  }
+
+  #secondary {
+    width: 40%;
+    float: right;
+  }
+
+  #gallery li {
+    /*width: 28.3333%;*/
+    width: 45%;
+  }
+}
+
+
+
+@media screen and (min-width: 240px) and (max-width: 320px){
+   body { background: red; }
+
+   #gallery {
+     /*width: 28.3333%;*/
+     width: 90%;
+   }
+}
+
+
+
+@media screen and (min-width: 660px) {
+
+  /*nav {
+    background: none;
+    float: right;
+    font-size: 1.125em;
+    margin-right: 15%;
+    text-align: right;
+    width: 35%;
+  }
+
+  #logo {
+    float: left;
+    margin-left: 15%;
+    text-align: left;
+    width: 35%;
+  }*/
+
+}
