@@ -1,11 +1,5 @@
-body:not(.loaded) .layer-1 {
-  display: none;
-}
-
-body:not(.loaded) #gallery {
-  display: none;
-}
-
+body:not(.loaded) .layer-1,
+body:not(.loaded) #gallery,
 body:not(.loaded) footer {
   display: none;
 }
