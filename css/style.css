@@ -113,7 +113,7 @@ GALLERY
 
 #gallery {
   padding: 0;
-  margin: 0
+  margin: 0;
 }
 
 #gallery li {
@@ -166,7 +166,7 @@ SKILLS SECTION
   background-color: white;
   clear: both;
   padding: 10px;
-  margin-top: 725px;
+  /*margin-top: 725px;*/
 }
 
 #skills ul {
